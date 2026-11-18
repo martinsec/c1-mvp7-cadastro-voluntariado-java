@@ -18,7 +18,7 @@ output "subnet_private_2_id" {
   value       = aws_subnet.private_2.id
 }
 
-# Lista das sub-redes privadas — usada pelo modulo compute
+# Lista das sub-redes privadas — consumida pelo modulo compute
 output "private_subnet_ids" {
   description = "Lista com os IDs das sub-redes privadas"
   value       = [aws_subnet.private_1.id, aws_subnet.private_2.id]
