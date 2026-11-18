@@ -1,0 +1,17 @@
+# Terraform — diretorio de plugins e cache local (NAO commitar)
+.terraform/
+
+# Estados do Terraform (NAO commitar — contem dados sensiveis)
+*.tfstate
+*.tfstate.backup
+
+# Variaveis com valores reais (NAO commitar)
+*.tfvars.json
+
+# Log de crash do Terraform
+crash.log
+
+# O .terraform.lock.hcl DEVE ser commitado — nao esta aqui
+
+# macOS
+.DS_Store
